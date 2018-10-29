@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "noLib": true,
+        "target": "es2018"
+    },
+    "exclude": [
+        "node_modules/**/*"
+    ]
+}

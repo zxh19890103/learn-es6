@@ -1,0 +1,26 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "从头开始学习ES5和ES6",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxh19890103/learninges.git"
+  },
+  "keywords": [
+    "learn",
+    "es5",
+    "es6"
+  ],
+  "author": "Singhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxh19890103/learninges/issues"
+  },
+  "homepage": "https://github.com/zxh19890103/learninges#readme"
+}

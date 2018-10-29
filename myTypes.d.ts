@@ -1,0 +1,3 @@
+interface Global {
+    termial: () => void
+}

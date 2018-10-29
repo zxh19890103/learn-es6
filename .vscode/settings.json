@@ -1,5 +1,4 @@
 {
     "editor.fontSize": 14,
-    "terminal.integrated.fontSize": 12,
-    "typescript.tsdk": "node.d.ts"
+    "terminal.integrated.fontSize": 12
 }

@@ -19,11 +19,3 @@ let handler2 = {
 const p2 = new Proxy(arr, handler2)
 p2[1] = 90
 console.log(p2)
-
-const e = new Event('Singhi')
-
-document.dispatchEvent(e)
-
-document.addEventListener('Singhi',(e) => {
-    console.log('..')
-})

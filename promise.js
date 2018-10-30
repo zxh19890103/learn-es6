@@ -11,3 +11,7 @@ setTimeout(() => {
 }, 2000)
 
 console.log('please wait for 2 secs.')
+
+export {
+	promise
+}

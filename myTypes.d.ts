@@ -1,3 +1,4 @@
-interface Global {
-    termial: () => void
+declare interface Wood {
+    age: number
+    name: string
 }

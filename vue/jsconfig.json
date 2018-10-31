@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es6", "scripthost"
+        ],
+        "target": "es6",
+        "module": "commonjs"
+    },
+    "exclude": [
+        "node_modules/**/*"
+    ],
+    "typeAcquisition": {
+        "enable": true,
+        "exclude": [
+            "node", "lodash"
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+.topbar {
+    height: 30px;
+    background: #e3e4e5;
+    color: #999;
+    border-bottom: solid 1px #ddd;
+    &__left, &__right {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        > li {
+            float: left;
+            line-height: 30px;
+            a {
+                color: #999;
+            }
+        }
+    }
+    &__left {
+        .iconfont {
+            font-size: 16px;
+            color: #5c5452;
+            padding-right: 5px;
+        }
+    }
+    &__right {
+        li {
+            &.spacer {
+                margin: 9px 12px;
+                width: 1px;
+                height: 12px;   
+                background-color: #ccc;
+            }
+        }
+    }
+    &__link {
+        &--location {
+            margin-left: 12px;
+        }
+        &--reg {
+            font-size: 1.05em;
+            color: red !important;
+        }
+    }
+}

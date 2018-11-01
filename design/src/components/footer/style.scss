@@ -1,0 +1,93 @@
+.footer {
+    padding: 20px 0 20px 0;
+    margin: 40px 0 0 0;
+    background-color: #eaeaea;
+    &__spacer {
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    &__dkhs {
+        display: flex;
+        flex-direction: row;
+        > div {
+            flex-basis: 25%;
+            line-height: 42px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #222;
+            i {
+                float: left;
+                display: block;
+                margin-right: 8px;
+                width: 36px;
+                height: 42px;
+                background-image: url(//misc.360buyimg.com/jdf/1.0.0/unit/service/5.0.0/i/ico_service.png);
+                background-repeat: no-repeat;
+            }
+        }
+        &-d i {
+            background-position: 0  0;
+        }
+        &-k i {
+            background-position: 0  -43px;
+        }
+        &-h i {
+            background-position: 0  -86px;
+        }
+        &-s i {
+            background-position: 0 -129px;
+        }
+    }
+    &__helps {
+        display: flex;
+        flex-direction: row;
+        > div {
+            flex-basis: 25%;
+            dt {
+                padding-bottom: 6px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #777;
+                height: 22px;
+            }
+        }
+    }
+    &__locallinks {
+        padding: 0;
+        margin: 10px 0;
+        list-style-type: none;
+        display: flex;
+        display: -webkit-flex;
+        li {
+            display: inline-block;
+            &.normal {
+                &:after {
+                    content: '|';
+                    margin: 0 10px;
+                    font-size: 12px;
+                    color: #ccc;
+                }
+            }
+        }
+    }
+    &__copyrights {
+        padding: 10px 0;
+        line-height: 22px;
+        color: #999;
+        text-align: center;
+        a {
+            color: #999;
+            &:hover {
+                color: red;
+            }
+        }
+        p {
+            margin: 3px 0;
+        }
+    }
+}
+
+.copyright_split {
+    margin: 0 10px;
+    color: #ccc;
+}

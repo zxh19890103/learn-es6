@@ -1,0 +1,63 @@
+body {
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+    background: #fff;    margin: 0;
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(//misc.360buyimg.com/jdf/1.0.0/unit/ui-base/5.0.0/font/iconfont.eot);
+    src: url(//misc.360buyimg.com/jdf/1.0.0/unit/ui-base/5.0.0/font/iconfont.eot#iefix) format("embedded-opentype"),url(//misc.360buyimg.com/jdf/1.0.0/unit/ui-base/5.0.0/font/iconfont.woff) format("woff"),url(//misc.360buyimg.com/jdf/1.0.0/unit/ui-base/5.0.0/font/iconfont.ttf) format("truetype"),url(//misc.360buyimg.com/jdf/1.0.0/unit/ui-base/5.0.0/font/iconfont.svg#iconfont) format("svg")
+}
+
+.iconfont {
+    font-family: iconfont;
+    font-style: normal;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    &:hover {
+        color: red;
+    }
+}
+dd {
+    margin: 0;
+}
+
+.fixed-width {
+    width: 1210px;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.bgicon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    &--cart {
+        background: url(https://misc.360buyimg.com/jdf/1.0.0/unit/shoppingcart/5.0.0/i/settleup-@2x.png) no-repeat;
+        background-size: 16px 16px;
+    }
+}
+.badge {
+    display: inline-block;
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    font-style: normal;
+    line-height: 16px;
+    text-align: center;
+    &--red {
+        background-color: #da1026;
+        color: #fff;
+    }
+}

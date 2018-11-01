@@ -1,0 +1,29 @@
+<div class="topbar">
+    <div class="topbar__in fixed-width">
+        <ul class="left topbar__left">
+            <li class="topbar__link--home">
+                <i class="iconfont">&#xe608;</i>
+                <a href="https://www.jd.com">京东首页</a>
+            </li>
+            <li class="topbar__link--location">
+                <i class="iconfont">&#xe604;</i>
+                <a href="javascript:void(0);">广州</a>
+            </li>
+        </ul>
+        <ul class="right topbar__right">
+            <li>
+                <a href="#">你好，请登录</a>
+                <a href="#" class="topbar__link--reg">免费注册</a>
+            </li>
+            <template v-for="item in items">
+                <li class="spacer"></li>
+                <li>
+                    <a href="#" @mouseenter="dropdown($event, item)">
+                        {{item.text}}
+                        <i v-if="item.hasdropdown" class="iconfont">&#xe605;</i>
+                    </a>
+                </li>
+            </template>
+        </ul>
+    </div>
+</div>

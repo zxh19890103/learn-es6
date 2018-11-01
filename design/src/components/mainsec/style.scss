@@ -1,0 +1,110 @@
+$lw: 242px;
+$rw: 1210px - $lw;
+$h: 675px;
+
+.mainsec {
+    margin-top: 30px;
+    height: $h;
+    &__left {
+        width: $lw;
+        height: $h;
+        background-color: #29bcc9;
+        overflow: hidden;
+    }
+    &__right {
+        width: $rw;
+        height: $h;
+    }
+}
+
+.categories {
+    > h3 {
+        background-color: #11aebc;
+        margin: 0;
+        padding: 5px 8px;
+        color: #fff;
+        font-weight: normal;
+    }
+    dl {
+        margin: 12px;
+        color: #fff;
+        border-bottom: 1px dotted #94dee4;
+    }
+    dt {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    dd {
+        margin: 14px 0 8px 0;
+        a {
+            display: inline-block;
+            color: #fff;
+            margin: 0 8px 8px 0;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.firstshow {
+    &__bigcats {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+            display: inline-block;
+            width: 60px;
+            padding: 6px 12px;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+    &__slider {
+        position: relative;
+        &-img {
+            width: 980px;
+            height: 380px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        &-navi {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 0 0 10px 0;
+            margin: 0;
+            text-align: center;
+            li {
+                display: inline-block;
+                width: 125px;
+                height: 40px;
+                margin: 0 2px;
+                line-height: 40px;
+                background-color: rgba(0,0,0,.5);
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &__quickentry {
+        margin: 0;
+        padding: 0;
+        height: 260px;
+        list-style-type: none;
+        li {
+            float: left;
+            display: block;
+            width: 25%;
+            height: 100%;
+        }
+        &:after {
+            clear: both;
+        }
+    }
+}

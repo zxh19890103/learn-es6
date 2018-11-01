@@ -1,0 +1,23 @@
+<div class="layer fixed-width">
+    <div class="layer__head">
+        <div class="left">
+            <img :src="imgTitle">
+        </div>
+        <div class="right">
+            <ul class="layer__top8">
+                <li v-for="item in top8">
+                    <a href="#">{{item}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="layer__body">
+        <ul class="layer__photos" :class="layerType">
+            <li v-for="(item, index) in photos" :style="item.loc" :class=" 'fore' + index ">
+                <a href="#">
+                    <img :src="item.img">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

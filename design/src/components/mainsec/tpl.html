@@ -1,0 +1,43 @@
+<div class="mainsec">
+    <div class="fixed-width">
+        <div class="mainsec__left left">
+            <div class="categories">
+                <h3>户外骑行</h3>
+                <template v-for="item in cats">
+                    <dl>
+                        <dt>{{item.title}}</dt>
+                        <dd>
+                            <a v-for="subitem in item.items" href="#">{{subitem}}</a>
+                        </dd>
+                    </dl>
+                </template>
+            </div>
+        </div>
+        <div class="mainsec__right right">
+            <div class="firstshow">
+                <ul class="firstshow__bigcats">
+                    <li v-for="item in bigcats">
+                        <a href="#">{{item}}</a>
+                    </li>
+                </ul>
+                <div class="firstshow__slider">
+                    <div class="firstshow__slider-img">
+                        <img src="//img12.360buyimg.com/da/jfs/t25828/344/65413373/152219/5145bde2/5b63fc1bNad3f013c.jpg">
+                    </div>
+                    <ul class="firstshow__slider-navi">
+                        <li v-for="item in naviitems">
+                            <a href="javascript:void(0);" class="">{{item.text}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="firstshow__quickentry">
+                    <li v-for="item in qeitems">
+                        <a href="#">
+                            <img :src="item.img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

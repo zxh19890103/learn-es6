@@ -1,1 +1,1 @@
-### 再学习ES5和ES6
+### Study ES5 & ES6 again.
